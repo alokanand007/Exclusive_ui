@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Ui_img from ".././Assets/Ui_img.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function SignUp() {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -43,7 +45,7 @@ function SignUp() {
 
     const isValid = Object.values(newErrors).every((error) => error === "");
     if (isValid) {
-      alert("Form submitted successfully!");
+      navigate("/page1");
     }
   };
 
