@@ -2,7 +2,7 @@
   "name": "new_login",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alokanand007.github.io/Exclusive_ui",
+  "homepage": "https://alokanand007.github.io",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
